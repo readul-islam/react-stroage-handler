@@ -9,7 +9,7 @@ const Displaycart = () => {
 
   const getLocalValue = localStorage.getItem('product__qun__value');
   const parseValue = JSON.parse(getLocalValue);
-  const getValue = Object.values('parseValue');
+  const getValue = Object.values(parseValue);
   // console.log(getValue)
   const reducer = (previousValue, currentValue) => previousValue + currentValue;
   const itemTotal = getValue.reduce(reducer,0);
