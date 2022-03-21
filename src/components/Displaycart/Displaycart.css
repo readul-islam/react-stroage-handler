@@ -1,0 +1,16 @@
+.cart-section{
+    border: 2px solid rgb(132, 127, 134);
+    border-radius:5px;
+    
+}
+.cart{
+    display:flex;
+    justify-content:end;
+    padding:10px;
+    
+    
+}
+/* #cart-s{
+    
+    
+} */
